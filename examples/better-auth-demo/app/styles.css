@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import "@repo/design-system/styles/globals.css";
+
+/* 确保背景图片能够正确显示 */
+.bg-muted {
+  background-color: hsl(var(--muted));
+}
+
+/* 添加调试样式，确保背景图片容器可见 */
+.bg-image-container {
+  min-height: 400px;
+  border: 1px solid #ccc;
+}
